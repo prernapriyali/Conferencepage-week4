@@ -1,10 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name NEWSWEEK CLONE
+# Project Name Conference page
 
 > A clone of NewsWeeks home page.The webside is build using modern css and bootstrap.The website is fully responsive.
 ## Screenshot
-![screenshot](./images/screenshot.jpg)
+![screenshot]()
 
 
 ## Built With
@@ -14,7 +14,7 @@
 
 ## Live Demo.
 
-[Live Demo Link](https://prernapriyali.github.io/clone-newsweekweek3/)
+[Live Demo Link]()
 
 
 ## Authors
