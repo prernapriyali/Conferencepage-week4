@@ -1,0 +1,125 @@
+  
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+/* Main Styling  */
+html,
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  background-image: url('./Images/bg.png');
+  background-color: #ccc;
+  background-repeat: repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.main-container {
+  overflow-x: hidden;
+}
+
+.top-info {
+  background-color: #272a31;
+}
+
+.info-links {
+  margin: auto;
+  max-width: 1300px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.info-links a {
+  color: #d3d3d3;
+  padding: 5px 10px;
+}
+
+.navbar {
+  background-color: white;
+  -webkit-box-shadow: 0 1px 49px -19px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0 1px 49px -19px rgba(0, 0, 0, 0.55);
+  box-shadow: 0 1px 49px -19px rgba(0, 0, 0, 0.55);
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: auto;
+}
+
+.about-date-dsc a {
+  color: #ec5242;
+}
+
+.nav-links ul li a {
+  color: #d3d3d3;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.nav-links a:hover {
+  color: #272a31;
+}
+
+.nav-links ul {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.nav-links li {
+  list-style: none;
+  padding: 15px 0;
+}
+
+.nav-links li:hover {
+  background-color: rgba(105, 104, 104, 0.548);
+}
+
+.nav-links img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+.mobilenav {
+    display: none;
+  }
+  
+@media only screen and (max-width: 767px) {
+  .top-info,
+  .navbar {
+    display: none;
+  }
+
+  /* Style the Mobile navigation menu */
+  .mobilenav {
+    display: block;
+    overflow: hidden;
+    padding-bottom: 49px;
+    position: relative;
+  }
+
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .mobilenav #myLinks {
+    display: none;
+    padding: 0 0 0 47px;
+  }
+
+  /* Style navigation menu links */
+  .mobilenav a {
+    color: white;
+    background-color: rgba(105, 104, 104, 0.548);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
